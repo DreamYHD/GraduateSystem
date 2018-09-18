@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/graduationsystem
+    username: root
+    password: 478214
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
